@@ -1,0 +1,14 @@
+[
+  {
+    "question": "What does OSI stand for?",
+    "options": ["Open System Interconnection", "Operating System Interface", "Optical System Interface", "Open Software Integration"],
+    "correct": 0,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which layer of OSI handles routing?",
+    "options": ["Transport", "Network", "Session", "Data Link"],
+    "correct": 1,
+    "difficulty": "medium"
+  }
+]

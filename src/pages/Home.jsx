@@ -388,14 +388,25 @@ const HomePage = () => {
     }
   };
 
+  // const handleSubjectClick = (subject) => {
+  //   try {
+  //     navigate(`/${subject.toLowerCase()}`);
+  //   } catch (err) {
+  //     console.error(`Failed to navigate to ${subject}:`, err.message);
+  //     setNavError(`Failed to open ${subject} quiz.`);
+  //   }
+  // };const handleSubjectClick = (subject) => {
   const handleSubjectClick = (subject) => {
-    try {
-      navigate(`/${subject.toLowerCase()}`);
-    } catch (err) {
-      console.error(`Failed to navigate to ${subject}:`, err.message);
-      setNavError(`Failed to open ${subject} quiz.`);
-    }
-  };
+  try {
+    navigate(`/quiz/${subject.toLowerCase()}`);
+  } catch (err) {
+    console.error(`Failed to navigate to ${subject}:`, err.message);
+    setNavError(`Failed to open ${subject} quiz.`);
+  }
+};
+
+
+
 
   if (isLoading) {
     return (

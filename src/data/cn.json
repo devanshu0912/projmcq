@@ -1,14 +1,1202 @@
 [
   {
-    "question": "What does OSI stand for?",
-    "options": ["Open System Interconnection", "Operating System Interface", "Optical System Interface", "Open Software Integration"],
-    "correct": 0,
-    "difficulty": "easy"
+    "id": "cn1",
+    "question": "Which protocol is used to find the MAC address from an IP address?",
+    "options": [
+      "IP",
+      "ARP",
+      "RARP",
+      "ICMP"
+    ],
+    "correct": 1,
+    "difficulty": "Hard"
   },
   {
-    "question": "Which layer of OSI handles routing?",
-    "options": ["Transport", "Network", "Session", "Data Link"],
+    "id": "cn2",
+    "question": "Which one is a connection-oriented protocol?",
+    "options": [
+      "TCP",
+      "UDP",
+      "ICMP",
+      "IP"
+    ],
+    "correct": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "id": "cn3",
+    "question": "What does DNS stand for?",
+    "options": [
+      "Data Network Server",
+      "Domain Name System",
+      "Digital Network Security",
+      "Domain Number Service"
+    ],
     "correct": 1,
-    "difficulty": "medium"
+    "difficulty": "Easy"
+  },
+  {
+    "id": "cn4",
+    "question": "Which multiplexing technique is used in traditional telephone systems?",
+    "options": [
+      "TDM",
+      "FDM",
+      "CDMA",
+      "OFDM"
+    ],
+    "correct": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "id": "cn5",
+    "question": "What is the function of a router in a network?",
+    "options": [
+      "Connects different networks",
+      "Amplifies signals",
+      "Filters spam",
+      "Stores data"
+    ],
+    "correct": 0,
+    "difficulty": "Easy"
+  },
+  {
+    "id": "cn6",
+    "question": "Which addressing method is used in IPv6 to send a packet to multiple interfaces?",
+    "options": [
+      "Unicast",
+      "Anycast",
+      "Multicast",
+      "Broadcast"
+    ],
+    "correct": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "id": "cn7",
+    "question": "What is the function of a router in a network?",
+    "options": [
+      "Connects different networks",
+      "Amplifies signals",
+      "Filters spam",
+      "Stores data"
+    ],
+    "correct": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "id": "cn8",
+    "question": "Which multiplexing technique is used in traditional telephone systems?",
+    "options": [
+      "TDM",
+      "FDM",
+      "CDMA",
+      "OFDM"
+    ],
+    "correct": 1,
+    "difficulty": "Easy"
+  },
+  {
+    "id": "cn9",
+    "question": "Which layer in the OSI model is responsible for end-to-end communication?",
+    "options": [
+      "Network",
+      "Transport",
+      "Session",
+      "Application"
+    ],
+    "correct": 1,
+    "difficulty": "Easy"
+  },
+  {
+    "id": "cn10",
+    "question": "Which protocol is used for email transmission?",
+    "options": [
+      "FTP",
+      "SMTP",
+      "HTTP",
+      "SNMP"
+    ],
+    "correct": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "id": "cn11",
+    "question": "Which protocol is used to find the MAC address from an IP address?",
+    "options": [
+      "IP",
+      "ARP",
+      "RARP",
+      "ICMP"
+    ],
+    "correct": 1,
+    "difficulty": "Easy"
+  },
+  {
+    "id": "cn12",
+    "question": "Which protocol is used to find the MAC address from an IP address?",
+    "options": [
+      "IP",
+      "ARP",
+      "RARP",
+      "ICMP"
+    ],
+    "correct": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "id": "cn13",
+    "question": "Which protocol is used for email transmission?",
+    "options": [
+      "FTP",
+      "SMTP",
+      "HTTP",
+      "SNMP"
+    ],
+    "correct": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "id": "cn14",
+    "question": "What is the function of a router in a network?",
+    "options": [
+      "Connects different networks",
+      "Amplifies signals",
+      "Filters spam",
+      "Stores data"
+    ],
+    "correct": 0,
+    "difficulty": "Easy"
+  },
+  {
+    "id": "cn15",
+    "question": "In TCP, what is the purpose of the three-way handshake?",
+    "options": [
+      "To establish a connection",
+      "To terminate a connection",
+      "To check for errors",
+      "To exchange encryption keys"
+    ],
+    "correct": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "id": "cn16",
+    "question": "Which addressing method is used in IPv6 to send a packet to multiple interfaces?",
+    "options": [
+      "Unicast",
+      "Anycast",
+      "Multicast",
+      "Broadcast"
+    ],
+    "correct": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "id": "cn17",
+    "question": "Which one is a connection-oriented protocol?",
+    "options": [
+      "TCP",
+      "UDP",
+      "ICMP",
+      "IP"
+    ],
+    "correct": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "id": "cn18",
+    "question": "Which protocol is used to find the MAC address from an IP address?",
+    "options": [
+      "IP",
+      "ARP",
+      "RARP",
+      "ICMP"
+    ],
+    "correct": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "id": "cn19",
+    "question": "Which layer in the OSI model is responsible for end-to-end communication?",
+    "options": [
+      "Network",
+      "Transport",
+      "Session",
+      "Application"
+    ],
+    "correct": 1,
+    "difficulty": "Easy"
+  },
+  {
+    "id": "cn20",
+    "question": "Which one is a connection-oriented protocol?",
+    "options": [
+      "TCP",
+      "UDP",
+      "ICMP",
+      "IP"
+    ],
+    "correct": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "id": "cn21",
+    "question": "Which protocol is used for email transmission?",
+    "options": [
+      "FTP",
+      "SMTP",
+      "HTTP",
+      "SNMP"
+    ],
+    "correct": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "id": "cn22",
+    "question": "What does DNS stand for?",
+    "options": [
+      "Data Network Server",
+      "Domain Name System",
+      "Digital Network Security",
+      "Domain Number Service"
+    ],
+    "correct": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "id": "cn23",
+    "question": "Which addressing method is used in IPv6 to send a packet to multiple interfaces?",
+    "options": [
+      "Unicast",
+      "Anycast",
+      "Multicast",
+      "Broadcast"
+    ],
+    "correct": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "id": "cn24",
+    "question": "Which protocol is used for email transmission?",
+    "options": [
+      "FTP",
+      "SMTP",
+      "HTTP",
+      "SNMP"
+    ],
+    "correct": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "id": "cn25",
+    "question": "Which multiplexing technique is used in traditional telephone systems?",
+    "options": [
+      "TDM",
+      "FDM",
+      "CDMA",
+      "OFDM"
+    ],
+    "correct": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "id": "cn26",
+    "question": "What is the size of an IPv4 address?",
+    "options": [
+      "32 bits",
+      "64 bits",
+      "128 bits",
+      "16 bits"
+    ],
+    "correct": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "id": "cn27",
+    "question": "Which protocol is used to find the MAC address from an IP address?",
+    "options": [
+      "IP",
+      "ARP",
+      "RARP",
+      "ICMP"
+    ],
+    "correct": 1,
+    "difficulty": "Easy"
+  },
+  {
+    "id": "cn28",
+    "question": "Which multiplexing technique is used in traditional telephone systems?",
+    "options": [
+      "TDM",
+      "FDM",
+      "CDMA",
+      "OFDM"
+    ],
+    "correct": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "id": "cn29",
+    "question": "Which protocol is used for email transmission?",
+    "options": [
+      "FTP",
+      "SMTP",
+      "HTTP",
+      "SNMP"
+    ],
+    "correct": 1,
+    "difficulty": "Easy"
+  },
+  {
+    "id": "cn30",
+    "question": "Which layer in the OSI model is responsible for end-to-end communication?",
+    "options": [
+      "Network",
+      "Transport",
+      "Session",
+      "Application"
+    ],
+    "correct": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "id": "cn31",
+    "question": "What is the function of a router in a network?",
+    "options": [
+      "Connects different networks",
+      "Amplifies signals",
+      "Filters spam",
+      "Stores data"
+    ],
+    "correct": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "id": "cn32",
+    "question": "Which multiplexing technique is used in traditional telephone systems?",
+    "options": [
+      "TDM",
+      "FDM",
+      "CDMA",
+      "OFDM"
+    ],
+    "correct": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "id": "cn33",
+    "question": "In TCP, what is the purpose of the three-way handshake?",
+    "options": [
+      "To establish a connection",
+      "To terminate a connection",
+      "To check for errors",
+      "To exchange encryption keys"
+    ],
+    "correct": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "id": "cn34",
+    "question": "What is the size of an IPv4 address?",
+    "options": [
+      "32 bits",
+      "64 bits",
+      "128 bits",
+      "16 bits"
+    ],
+    "correct": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "id": "cn35",
+    "question": "In TCP, what is the purpose of the three-way handshake?",
+    "options": [
+      "To establish a connection",
+      "To terminate a connection",
+      "To check for errors",
+      "To exchange encryption keys"
+    ],
+    "correct": 0,
+    "difficulty": "Easy"
+  },
+  {
+    "id": "cn36",
+    "question": "Which multiplexing technique is used in traditional telephone systems?",
+    "options": [
+      "TDM",
+      "FDM",
+      "CDMA",
+      "OFDM"
+    ],
+    "correct": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "id": "cn37",
+    "question": "Which protocol is used for email transmission?",
+    "options": [
+      "FTP",
+      "SMTP",
+      "HTTP",
+      "SNMP"
+    ],
+    "correct": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "id": "cn38",
+    "question": "Which addressing method is used in IPv6 to send a packet to multiple interfaces?",
+    "options": [
+      "Unicast",
+      "Anycast",
+      "Multicast",
+      "Broadcast"
+    ],
+    "correct": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "id": "cn39",
+    "question": "What is the size of an IPv4 address?",
+    "options": [
+      "32 bits",
+      "64 bits",
+      "128 bits",
+      "16 bits"
+    ],
+    "correct": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "id": "cn40",
+    "question": "In TCP, what is the purpose of the three-way handshake?",
+    "options": [
+      "To establish a connection",
+      "To terminate a connection",
+      "To check for errors",
+      "To exchange encryption keys"
+    ],
+    "correct": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "id": "cn41",
+    "question": "What does DNS stand for?",
+    "options": [
+      "Data Network Server",
+      "Domain Name System",
+      "Digital Network Security",
+      "Domain Number Service"
+    ],
+    "correct": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "id": "cn42",
+    "question": "Which addressing method is used in IPv6 to send a packet to multiple interfaces?",
+    "options": [
+      "Unicast",
+      "Anycast",
+      "Multicast",
+      "Broadcast"
+    ],
+    "correct": 2,
+    "difficulty": "Easy"
+  },
+  {
+    "id": "cn43",
+    "question": "Which one is a connection-oriented protocol?",
+    "options": [
+      "TCP",
+      "UDP",
+      "ICMP",
+      "IP"
+    ],
+    "correct": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "id": "cn44",
+    "question": "Which layer in the OSI model is responsible for end-to-end communication?",
+    "options": [
+      "Network",
+      "Transport",
+      "Session",
+      "Application"
+    ],
+    "correct": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "id": "cn45",
+    "question": "What does DNS stand for?",
+    "options": [
+      "Data Network Server",
+      "Domain Name System",
+      "Digital Network Security",
+      "Domain Number Service"
+    ],
+    "correct": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "id": "cn46",
+    "question": "Which protocol is used to find the MAC address from an IP address?",
+    "options": [
+      "IP",
+      "ARP",
+      "RARP",
+      "ICMP"
+    ],
+    "correct": 1,
+    "difficulty": "Easy"
+  },
+  {
+    "id": "cn47",
+    "question": "What is the size of an IPv4 address?",
+    "options": [
+      "32 bits",
+      "64 bits",
+      "128 bits",
+      "16 bits"
+    ],
+    "correct": 0,
+    "difficulty": "Easy"
+  },
+  {
+    "id": "cn48",
+    "question": "Which one is a connection-oriented protocol?",
+    "options": [
+      "TCP",
+      "UDP",
+      "ICMP",
+      "IP"
+    ],
+    "correct": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "id": "cn49",
+    "question": "What is the size of an IPv4 address?",
+    "options": [
+      "32 bits",
+      "64 bits",
+      "128 bits",
+      "16 bits"
+    ],
+    "correct": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "id": "cn50",
+    "question": "Which addressing method is used in IPv6 to send a packet to multiple interfaces?",
+    "options": [
+      "Unicast",
+      "Anycast",
+      "Multicast",
+      "Broadcast"
+    ],
+    "correct": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "id": "cn51",
+    "question": "In TCP, what is the purpose of the three-way handshake?",
+    "options": [
+      "To establish a connection",
+      "To terminate a connection",
+      "To check for errors",
+      "To exchange encryption keys"
+    ],
+    "correct": 0,
+    "difficulty": "Easy"
+  },
+  {
+    "id": "cn52",
+    "question": "Which addressing method is used in IPv6 to send a packet to multiple interfaces?",
+    "options": [
+      "Unicast",
+      "Anycast",
+      "Multicast",
+      "Broadcast"
+    ],
+    "correct": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "id": "cn53",
+    "question": "Which protocol is used to find the MAC address from an IP address?",
+    "options": [
+      "IP",
+      "ARP",
+      "RARP",
+      "ICMP"
+    ],
+    "correct": 1,
+    "difficulty": "Easy"
+  },
+  {
+    "id": "cn54",
+    "question": "What is the function of a router in a network?",
+    "options": [
+      "Connects different networks",
+      "Amplifies signals",
+      "Filters spam",
+      "Stores data"
+    ],
+    "correct": 0,
+    "difficulty": "Easy"
+  },
+  {
+    "id": "cn55",
+    "question": "What is the function of a router in a network?",
+    "options": [
+      "Connects different networks",
+      "Amplifies signals",
+      "Filters spam",
+      "Stores data"
+    ],
+    "correct": 0,
+    "difficulty": "Easy"
+  },
+  {
+    "id": "cn56",
+    "question": "Which one is a connection-oriented protocol?",
+    "options": [
+      "TCP",
+      "UDP",
+      "ICMP",
+      "IP"
+    ],
+    "correct": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "id": "cn57",
+    "question": "In TCP, what is the purpose of the three-way handshake?",
+    "options": [
+      "To establish a connection",
+      "To terminate a connection",
+      "To check for errors",
+      "To exchange encryption keys"
+    ],
+    "correct": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "id": "cn58",
+    "question": "Which protocol is used to find the MAC address from an IP address?",
+    "options": [
+      "IP",
+      "ARP",
+      "RARP",
+      "ICMP"
+    ],
+    "correct": 1,
+    "difficulty": "Easy"
+  },
+  {
+    "id": "cn59",
+    "question": "What is the size of an IPv4 address?",
+    "options": [
+      "32 bits",
+      "64 bits",
+      "128 bits",
+      "16 bits"
+    ],
+    "correct": 0,
+    "difficulty": "Easy"
+  },
+  {
+    "id": "cn60",
+    "question": "Which layer in the OSI model is responsible for end-to-end communication?",
+    "options": [
+      "Network",
+      "Transport",
+      "Session",
+      "Application"
+    ],
+    "correct": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "id": "cn61",
+    "question": "What is the size of an IPv4 address?",
+    "options": [
+      "32 bits",
+      "64 bits",
+      "128 bits",
+      "16 bits"
+    ],
+    "correct": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "id": "cn62",
+    "question": "Which addressing method is used in IPv6 to send a packet to multiple interfaces?",
+    "options": [
+      "Unicast",
+      "Anycast",
+      "Multicast",
+      "Broadcast"
+    ],
+    "correct": 2,
+    "difficulty": "Hard"
+  },
+  {
+    "id": "cn63",
+    "question": "Which one is a connection-oriented protocol?",
+    "options": [
+      "TCP",
+      "UDP",
+      "ICMP",
+      "IP"
+    ],
+    "correct": 0,
+    "difficulty": "Easy"
+  },
+  {
+    "id": "cn64",
+    "question": "Which protocol is used for email transmission?",
+    "options": [
+      "FTP",
+      "SMTP",
+      "HTTP",
+      "SNMP"
+    ],
+    "correct": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "id": "cn65",
+    "question": "Which protocol is used for email transmission?",
+    "options": [
+      "FTP",
+      "SMTP",
+      "HTTP",
+      "SNMP"
+    ],
+    "correct": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "id": "cn66",
+    "question": "What is the function of a router in a network?",
+    "options": [
+      "Connects different networks",
+      "Amplifies signals",
+      "Filters spam",
+      "Stores data"
+    ],
+    "correct": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "id": "cn67",
+    "question": "Which one is a connection-oriented protocol?",
+    "options": [
+      "TCP",
+      "UDP",
+      "ICMP",
+      "IP"
+    ],
+    "correct": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "id": "cn68",
+    "question": "Which protocol is used for email transmission?",
+    "options": [
+      "FTP",
+      "SMTP",
+      "HTTP",
+      "SNMP"
+    ],
+    "correct": 1,
+    "difficulty": "Easy"
+  },
+  {
+    "id": "cn69",
+    "question": "Which addressing method is used in IPv6 to send a packet to multiple interfaces?",
+    "options": [
+      "Unicast",
+      "Anycast",
+      "Multicast",
+      "Broadcast"
+    ],
+    "correct": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "id": "cn70",
+    "question": "What does DNS stand for?",
+    "options": [
+      "Data Network Server",
+      "Domain Name System",
+      "Digital Network Security",
+      "Domain Number Service"
+    ],
+    "correct": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "id": "cn71",
+    "question": "Which protocol is used for email transmission?",
+    "options": [
+      "FTP",
+      "SMTP",
+      "HTTP",
+      "SNMP"
+    ],
+    "correct": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "id": "cn72",
+    "question": "What is the function of a router in a network?",
+    "options": [
+      "Connects different networks",
+      "Amplifies signals",
+      "Filters spam",
+      "Stores data"
+    ],
+    "correct": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "id": "cn73",
+    "question": "Which protocol is used to find the MAC address from an IP address?",
+    "options": [
+      "IP",
+      "ARP",
+      "RARP",
+      "ICMP"
+    ],
+    "correct": 1,
+    "difficulty": "Easy"
+  },
+  {
+    "id": "cn74",
+    "question": "What is the size of an IPv4 address?",
+    "options": [
+      "32 bits",
+      "64 bits",
+      "128 bits",
+      "16 bits"
+    ],
+    "correct": 0,
+    "difficulty": "Easy"
+  },
+  {
+    "id": "cn75",
+    "question": "Which one is a connection-oriented protocol?",
+    "options": [
+      "TCP",
+      "UDP",
+      "ICMP",
+      "IP"
+    ],
+    "correct": 0,
+    "difficulty": "Easy"
+  },
+  {
+    "id": "cn76",
+    "question": "What does DNS stand for?",
+    "options": [
+      "Data Network Server",
+      "Domain Name System",
+      "Digital Network Security",
+      "Domain Number Service"
+    ],
+    "correct": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "id": "cn77",
+    "question": "What is the size of an IPv4 address?",
+    "options": [
+      "32 bits",
+      "64 bits",
+      "128 bits",
+      "16 bits"
+    ],
+    "correct": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "id": "cn78",
+    "question": "What is the size of an IPv4 address?",
+    "options": [
+      "32 bits",
+      "64 bits",
+      "128 bits",
+      "16 bits"
+    ],
+    "correct": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "id": "cn79",
+    "question": "What is the function of a router in a network?",
+    "options": [
+      "Connects different networks",
+      "Amplifies signals",
+      "Filters spam",
+      "Stores data"
+    ],
+    "correct": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "id": "cn80",
+    "question": "Which protocol is used to find the MAC address from an IP address?",
+    "options": [
+      "IP",
+      "ARP",
+      "RARP",
+      "ICMP"
+    ],
+    "correct": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "id": "cn81",
+    "question": "What does DNS stand for?",
+    "options": [
+      "Data Network Server",
+      "Domain Name System",
+      "Digital Network Security",
+      "Domain Number Service"
+    ],
+    "correct": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "id": "cn82",
+    "question": "What does DNS stand for?",
+    "options": [
+      "Data Network Server",
+      "Domain Name System",
+      "Digital Network Security",
+      "Domain Number Service"
+    ],
+    "correct": 1,
+    "difficulty": "Easy"
+  },
+  {
+    "id": "cn83",
+    "question": "Which protocol is used to find the MAC address from an IP address?",
+    "options": [
+      "IP",
+      "ARP",
+      "RARP",
+      "ICMP"
+    ],
+    "correct": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "id": "cn84",
+    "question": "Which one is a connection-oriented protocol?",
+    "options": [
+      "TCP",
+      "UDP",
+      "ICMP",
+      "IP"
+    ],
+    "correct": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "id": "cn85",
+    "question": "What is the size of an IPv4 address?",
+    "options": [
+      "32 bits",
+      "64 bits",
+      "128 bits",
+      "16 bits"
+    ],
+    "correct": 0,
+    "difficulty": "Easy"
+  },
+  {
+    "id": "cn86",
+    "question": "What is the size of an IPv4 address?",
+    "options": [
+      "32 bits",
+      "64 bits",
+      "128 bits",
+      "16 bits"
+    ],
+    "correct": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "id": "cn87",
+    "question": "In TCP, what is the purpose of the three-way handshake?",
+    "options": [
+      "To establish a connection",
+      "To terminate a connection",
+      "To check for errors",
+      "To exchange encryption keys"
+    ],
+    "correct": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "id": "cn88",
+    "question": "Which addressing method is used in IPv6 to send a packet to multiple interfaces?",
+    "options": [
+      "Unicast",
+      "Anycast",
+      "Multicast",
+      "Broadcast"
+    ],
+    "correct": 2,
+    "difficulty": "Easy"
+  },
+  {
+    "id": "cn89",
+    "question": "Which protocol is used for email transmission?",
+    "options": [
+      "FTP",
+      "SMTP",
+      "HTTP",
+      "SNMP"
+    ],
+    "correct": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "id": "cn90",
+    "question": "Which multiplexing technique is used in traditional telephone systems?",
+    "options": [
+      "TDM",
+      "FDM",
+      "CDMA",
+      "OFDM"
+    ],
+    "correct": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "id": "cn91",
+    "question": "Which addressing method is used in IPv6 to send a packet to multiple interfaces?",
+    "options": [
+      "Unicast",
+      "Anycast",
+      "Multicast",
+      "Broadcast"
+    ],
+    "correct": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "id": "cn92",
+    "question": "In TCP, what is the purpose of the three-way handshake?",
+    "options": [
+      "To establish a connection",
+      "To terminate a connection",
+      "To check for errors",
+      "To exchange encryption keys"
+    ],
+    "correct": 0,
+    "difficulty": "Hard"
+  },
+  {
+    "id": "cn93",
+    "question": "Which one is a connection-oriented protocol?",
+    "options": [
+      "TCP",
+      "UDP",
+      "ICMP",
+      "IP"
+    ],
+    "correct": 0,
+    "difficulty": "Medium"
+  },
+  {
+    "id": "cn94",
+    "question": "Which protocol is used to find the MAC address from an IP address?",
+    "options": [
+      "IP",
+      "ARP",
+      "RARP",
+      "ICMP"
+    ],
+    "correct": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "id": "cn95",
+    "question": "Which protocol is used for email transmission?",
+    "options": [
+      "FTP",
+      "SMTP",
+      "HTTP",
+      "SNMP"
+    ],
+    "correct": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "id": "cn96",
+    "question": "In TCP, what is the purpose of the three-way handshake?",
+    "options": [
+      "To establish a connection",
+      "To terminate a connection",
+      "To check for errors",
+      "To exchange encryption keys"
+    ],
+    "correct": 0,
+    "difficulty": "Easy"
+  },
+  {
+    "id": "cn97",
+    "question": "Which one is a connection-oriented protocol?",
+    "options": [
+      "TCP",
+      "UDP",
+      "ICMP",
+      "IP"
+    ],
+    "correct": 0,
+    "difficulty": "Easy"
+  },
+  {
+    "id": "cn98",
+    "question": "Which protocol is used to find the MAC address from an IP address?",
+    "options": [
+      "IP",
+      "ARP",
+      "RARP",
+      "ICMP"
+    ],
+    "correct": 1,
+    "difficulty": "Hard"
+  },
+  {
+    "id": "cn99",
+    "question": "Which protocol is used for email transmission?",
+    "options": [
+      "FTP",
+      "SMTP",
+      "HTTP",
+      "SNMP"
+    ],
+    "correct": 1,
+    "difficulty": "Medium"
+  },
+  {
+    "id": "cn100",
+    "question": "What does DNS stand for?",
+    "options": [
+      "Data Network Server",
+      "Domain Name System",
+      "Digital Network Security",
+      "Domain Number Service"
+    ],
+    "correct": 1,
+    "difficulty": "Medium"
   }
 ]

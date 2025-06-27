@@ -126,7 +126,7 @@ const QuestionCard = ({ question, selected, submitted, onSelect, onSubmit }) => 
 
   return (
     <div className="p-6 bg-white rounded-lg shadow-md max-w-xl mx-auto">
-      <p className="text-xs text-gray-400 mb-2">ID: {question.id}</p>
+      {/* <p className="text-xs text-gray-400 mb-2">ID: {question.id}</p> */}
       <h2 className="text-xl font-semibold text-gray-800 mb-2">{question.question}</h2>
       <p className="text-sm text-gray-500 mb-4">
         Difficulty: <span className="font-semibold">{question.difficulty}</span>
@@ -182,4 +182,3 @@ const QuestionCard = ({ question, selected, submitted, onSelect, onSubmit }) => 
 };
 
 export default QuestionCard;
-

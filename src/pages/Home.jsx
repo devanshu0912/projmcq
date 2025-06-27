@@ -365,10 +365,123 @@
 // export default HomePage;
 
 
+// import React, { useState } from 'react';
+// import { useAuth0 } from '@auth0/auth0-react';
+// import { FaArrowRight } from 'react-icons/fa';
+// import { useNavigate } from 'react-router-dom';
+
+// const HomePage = () => {
+//   const { isAuthenticated, loginWithRedirect, isLoading, error: authError } = useAuth0();
+//   const navigate = useNavigate();
+//   const [navError, setNavError] = useState(null);
+
+//   const handleClick = async () => {
+//     try {
+//       if (isAuthenticated) {
+//         navigate('/choose-subject');
+//       } else {
+//         await loginWithRedirect();
+//       }
+//     } catch (err) {
+//       console.error('Error during navigation or login:', err.message);
+//       setNavError('Something went wrong. Please try again.');
+//     }
+//   };
+
+//   // const handleSubjectClick = (subject) => {
+//   //   try {
+//   //     navigate(`/${subject.toLowerCase()}`);
+//   //   } catch (err) {
+//   //     console.error(`Failed to navigate to ${subject}:`, err.message);
+//   //     setNavError(`Failed to open ${subject} quiz.`);
+//   //   }
+//   // };const handleSubjectClick = (subject) => {
+//   const handleSubjectClick = (subject) => {
+//   try {
+//     navigate(`/quiz/${subject.toLowerCase()}`);
+//   } catch (err) {
+//     console.error(`Failed to navigate to ${subject}:`, err.message);
+//     setNavError(`Failed to open ${subject} quiz.`);
+//   }
+// };
+
+
+
+
+//   if (isLoading) {
+//     return (
+//       // <div className="flex items-center justify-center h-screen text-xl font-semibold text-gray-700">
+//       //   Loading...
+//       // </div>
+//        <div className="flex items-center justify-center min-h-screen bg-white">
+//       <div className="w-12 h-12 border-4 border-blue-500 border-dashed rounded-full animate-spin"></div>
+//     </div>
+//     );
+//   }
+
+//   if (authError || navError) {
+//     return (
+//       <div className="flex items-center justify-center h-screen px-6 text-center">
+//         <div className="bg-red-100 text-red-700 p-6 rounded-lg shadow-md">
+//           <h2 className="text-2xl font-bold mb-2">Oops! 🚫</h2>
+//           <p>{authError?.message || navError}</p>
+//           <button
+//             onClick={() => window.location.reload()}
+//             className="mt-4 px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700"
+//           >
+//             Reload Page
+//           </button>
+//         </div>
+//       </div>
+//     );
+//   }
+
+//   return (
+//     <div className="flex flex-col min-h-screen bg-gradient-to-r from-purple-100 via-blue-100 to-purple-100">
+//       <main className="flex-grow flex flex-col items-center justify-center text-center p-8 space-y-8 animate-fadeIn">
+//         <h1 className="text-4xl md:text-5xl font-bold text-gray-800 drop-shadow-md">
+//           Ace your OA and Technical Interview with <br />
+//           <span className="text-indigo-600">MCQ Portal</span>
+//         </h1>
+
+//         <div className="flex flex-wrap gap-4 justify-center">
+//           {['CN', 'OS', 'DBMS', 'OOPs', 'Aptitude'].map((subject) => (
+//             <button
+//               key={subject}
+//               onClick={() => handleSubjectClick(subject)}
+//               className="px-6 py-3 bg-indigo-500 text-white font-semibold rounded-full shadow-md hover:bg-indigo-600 transition duration-300"
+//             >
+//               {subject}
+//             </button>
+//           ))}
+//         </div>
+
+//         <button
+//           onClick={handleClick}
+//           className="mt-6 flex items-center gap-2 px-6 py-3 bg-green-500 text-white font-semibold rounded-full shadow-lg hover:bg-green-600 transition duration-300 animate-bounce"
+//         >
+//           {isAuthenticated ? 'Continue Your Learning Journey' : 'Get Started'}
+//           <FaArrowRight />
+//         </button>
+//       </main>
+//     </div>
+//   );
+// };
+
+// export default HomePage;
 import React, { useState } from 'react';
 import { useAuth0 } from '@auth0/auth0-react';
-import { FaArrowRight } from 'react-icons/fa';
+import { FaArrowRight, FaDatabase, FaNetworkWired, FaCogs, FaLightbulb, FaCode } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
+import logo from '../assets/logo.png'; 
+
+const SUBJECTS = [
+  { name: 'CN', icon: <FaNetworkWired className="text-blue-500 text-2xl" /> },
+  { name: 'OS', icon: <FaCogs className="text-gray-600 text-2xl" /> },
+  { name: 'DBMS', icon: <FaDatabase className="text-purple-600 text-2xl" /> },
+  { name: 'OOPs', icon: <FaCode className="text-pink-500 text-2xl" /> },
+  { name: 'Aptitude', icon: <FaLightbulb className="text-yellow-500 text-2xl" /> },
+];
 
 const HomePage = () => {
   const { isAuthenticated, loginWithRedirect, isLoading, error: authError } = useAuth0();
@@ -388,34 +501,20 @@ const HomePage = () => {
     }
   };
 
-  // const handleSubjectClick = (subject) => {
-  //   try {
-  //     navigate(`/${subject.toLowerCase()}`);
-  //   } catch (err) {
-  //     console.error(`Failed to navigate to ${subject}:`, err.message);
-  //     setNavError(`Failed to open ${subject} quiz.`);
-  //   }
-  // };const handleSubjectClick = (subject) => {
   const handleSubjectClick = (subject) => {
-  try {
-    navigate(`/quiz/${subject.toLowerCase()}`);
-  } catch (err) {
-    console.error(`Failed to navigate to ${subject}:`, err.message);
-    setNavError(`Failed to open ${subject} quiz.`);
-  }
-};
-
-
-
+    try {
+      navigate(`/quiz/${subject.toLowerCase()}`);
+    } catch (err) {
+      console.error(`Failed to navigate to ${subject}:`, err.message);
+      setNavError(`Failed to open ${subject} quiz.`);
+    }
+  };
 
   if (isLoading) {
     return (
-      // <div className="flex items-center justify-center h-screen text-xl font-semibold text-gray-700">
-      //   Loading...
-      // </div>
-       <div className="flex items-center justify-center min-h-screen bg-white">
-      <div className="w-12 h-12 border-4 border-blue-500 border-dashed rounded-full animate-spin"></div>
-    </div>
+      <div className="flex items-center justify-center min-h-screen bg-white">
+        <div className="w-12 h-12 border-4 border-blue-500 border-dashed rounded-full animate-spin"></div>
+      </div>
     );
   }
 
@@ -438,27 +537,30 @@ const HomePage = () => {
 
   return (
     <div className="flex flex-col min-h-screen bg-gradient-to-r from-purple-100 via-blue-100 to-purple-100">
-      <main className="flex-grow flex flex-col items-center justify-center text-center p-8 space-y-8 animate-fadeIn">
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-800 drop-shadow-md">
-          Ace your OA and Technical Interview with <br />
-          <span className="text-indigo-600">MCQ Portal (Devanshu Shukla)</span>
-        </h1>
+      
 
-        <div className="flex flex-wrap gap-4 justify-center">
-          {['CN', 'OS', 'DBMS', 'OOPs', 'Aptitude'].map((subject) => (
+      <main className="flex-grow flex flex-col items-center justify-center text-center p-8 space-y-8 animate-fadeIn">
+        <h2 className="text-4xl md:text-5xl font-bold text-gray-800 drop-shadow-md">
+          Ace your OA and Technical Interviews with <br />
+          <span className="text-indigo-600">MCQ Portal</span>
+        </h2>
+
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
+          {SUBJECTS.map(({ name, icon }) => (
             <button
-              key={subject}
-              onClick={() => handleSubjectClick(subject)}
-              className="px-6 py-3 bg-indigo-500 text-white font-semibold rounded-full shadow-md hover:bg-indigo-600 transition duration-300"
+              key={name}
+              onClick={() => handleSubjectClick(name)}
+              className="flex items-center gap-3 px-6 py-4 bg-white shadow-md rounded-xl hover:shadow-lg transition border border-gray-200 hover:border-indigo-400"
             >
-              {subject}
+              {icon}
+              <span className="font-semibold text-gray-800 text-lg">{name}</span>
             </button>
           ))}
         </div>
 
         <button
           onClick={handleClick}
-          className="mt-6 flex items-center gap-2 px-6 py-3 bg-green-500 text-white font-semibold rounded-full shadow-lg hover:bg-green-600 transition duration-300 animate-bounce"
+          className="mt-8 flex items-center gap-2 px-6 py-3 bg-green-500 text-white font-semibold rounded-full shadow-lg hover:bg-green-600 transition duration-300"
         >
           {isAuthenticated ? 'Continue Your Learning Journey' : 'Get Started'}
           <FaArrowRight />

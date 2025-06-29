@@ -24,6 +24,8 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import SubPage from './pages/SubPage';
+import ResultPage from './components/ResultPage';
+import ReviewPage from './components/ReviewPage';
 const domain = import.meta.env.VITE_AUTH0_DOMAIN; 
 const clientId = import.meta.env.VITE_AUTH0_CLIENT_Id;   
 
@@ -48,6 +50,10 @@ const router=createBrowserRouter([{
   },
     { path: 'quiz/:subject',
       element: <SubPage /> },
+      { path: 'result',
+      element: <ResultPage /> },
+       { path: 'review',
+      element: <ReviewPage /> },
 ]
 }])
 

@@ -65,12 +65,36 @@ const QuizPage = () => {
     setAnswers(updated);
   };
 // finish pe score caclute hoga
-  const handleFinish = () => {
+  // const handleFinish = () => {
+  //   const correct = answers.reduce(
+  //     (acc, ans, i) => ans.selected === questions[i].correct ? acc + 1 : acc,
+  //     0
+  //   );
+  //   navigate('/result', { state: { score: correct, total: questions.length } });
+  // };
+   const handleFinish = () => {
     const correct = answers.reduce(
-      (acc, ans, i) => ans.selected === questions[i].correct ? acc + 1 : acc,
+      (acc, ans, i) => (ans.selected === questions[i].correct ? acc + 1 : acc),
       0
     );
-    navigate('/result', { state: { score: correct, total: questions.length } });
+
+    const results = answers.map((ans, i) => ({
+      ...ans,
+      id: questions[i].id,
+      question: questions[i].question,
+      options: questions[i].options,
+      correct: questions[i].correct,
+      difficulty: questions[i].difficulty,
+      explanation: questions[i].explanation || '',
+    }));
+
+    navigate('/result', {
+      state: {
+        score: correct,
+        total: questions.length,
+        results,
+      },
+    });
   };
 
   if (loading) return <p className="text-center mt-10 text-gray-600">Loading quiz...</p>;
@@ -118,7 +142,7 @@ const QuizPage = () => {
       <div className="flex justify-between mt-6">
         <button
           onClick={handlePrev}
-          disabled={currentIndex === 0}
+          disabled={currentIndex === 0}// diable btn when user on first question 
           className="px-4 py-2 bg-gray-300 hover:bg-gray-400 text-sm rounded disabled:opacity-50"
         >
           Previous

@@ -27,6 +27,7 @@ import SubPage from './pages/SubPage';
 import ResultPage from './components/ResultPage';
 import ReviewPage from './components/ReviewPage';
 import Profile from './pages/Profile';
+import TestSaveResult from './pages/TestSaveResult';
 const domain = import.meta.env.VITE_AUTH0_DOMAIN; 
 const clientId = import.meta.env.VITE_AUTH0_CLIENT_Id;   
 
@@ -57,6 +58,8 @@ const router=createBrowserRouter([{
       element: <ReviewPage /> },
       { path: 'profile',
       element: <Profile/>},
+      { path: 'test',
+      element: <TestSaveResult/>},
 ]
 }])
 
@@ -68,6 +71,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       authorizationParams={{
         redirect_uri: window.location.origin,
       }}
+      cacheLocation="localstorage"
     >
      
       <RouterProvider router={router}/>

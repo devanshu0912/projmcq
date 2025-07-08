@@ -87,6 +87,7 @@ const QuizPage = () => {
       difficulty: questions[i].difficulty,
       explanation: questions[i].explanation || '',
     }));
+     localStorage.setItem('quizResults', JSON.stringify(results));
 
     navigate('/result', {
       state: {
@@ -169,3 +170,4 @@ const QuizPage = () => {
 };
 
 export default QuizPage;
+

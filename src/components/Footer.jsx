@@ -1,10 +1,9 @@
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white mt-auto">
-      <div className="container mx-auto text-center py-3 text-sm">
-        &copy; {new Date().getFullYear()} MCQ Portal. All rights reserved.
-      </div>
-    </footer>
+    <footer className=" py-4 bg-gray-100 text-center text-xs text-gray-500 m-0">
+  Made with ❤️ by Devanshu Shukla · © {new Date().getFullYear()} MCQ Portal
+</footer>
+
   );
 };
 

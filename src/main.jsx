@@ -58,8 +58,8 @@ const router=createBrowserRouter([{
       element: <ReviewPage /> },
       { path: 'profile',
       element: <Profile/>},
-      { path: 'test',
-      element: <TestSaveResult/>},
+      // { path: 'test',
+      // element: <TestSaveResult/>},
 ]
 }])
 

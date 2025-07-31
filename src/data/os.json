@@ -1,14 +1,37 @@
 [
   {
-    "question": "What does OSI stand for?",
-    "options": ["Open System Interconnection", "Operating System Interface", "Optical System Interface", "Open Software Integration"],
-    "correct": 0,
-    "difficulty": "easy"
+    "question": "What is the main difference between a process and a thread?",
+    "options": ["Processes share memory, threads do not", "Threads are independent units of execution, processes are not", "Threads share memory space, processes do not", "Processes execute faster than threads"],
+    "correct": 2,
+    "difficulty": "medium",
+    "topic": "Operating Systems - Process vs Thread"
   },
   {
-    "question": "Which layer of OSI handles routing?",
-    "options": ["Transport", "Network", "Session", "Data Link"],
+    "question": "Which of the following components is unique to each thread in a process?",
+    "options": ["Heap", "Code Segment", "Data Segment", "Stack"],
+    "correct": 3,
+    "difficulty": "medium",
+    "topic": "Operating Systems - Thread Structure"
+  },
+  {
+    "question": "In a multi-threaded process, which part of memory is shared among all threads?",
+    "options": ["Stack", "Registers", "Heap", "Program Counter"],
+    "correct": 2,
+    "difficulty": "easy",
+    "topic": "Operating Systems - Memory Sharing"
+  },
+  {
+    "question": "Which of the following is a valid advantage of using threads over processes?",
+    "options": ["Threads are more secure", "Threads use more resources", "Threads have faster context switching", "Threads cannot communicate with each other"],
+    "correct": 2,
+    "difficulty": "easy",
+    "topic": "Operating Systems - Thread Advantages"
+  },
+  {
+    "question": "If one thread crashes in a process, what is the possible effect?",
+    "options": ["Only that thread terminates", "All threads in the process may be affected", "It will restart automatically", "It has no effect on other threads"],
     "correct": 1,
-    "difficulty": "medium"
+    "difficulty": "medium",
+    "topic": "Operating Systems - Thread Safety"
   }
 ]

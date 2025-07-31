@@ -90,7 +90,7 @@ const ReviewPage = () => {
         </ul>
 
         <div className="bg-indigo-50 border border-indigo-200 p-4 rounded">
-          <p className="text-indigo-700 font-medium mb-1">AI Explanation:</p>
+          <p className="text-indigo-700 font-medium mb-1">Explanation:</p>
           <p className="text-sm text-gray-700">{current.explanation || 'No explanation available.'}</p>
         </div>
       </main>
